@@ -27,7 +27,7 @@ public class Main {
         System.out.println("Result of method 2: " + getMax2(array, array.length, 0));
     }
 
-    //A method that find maximum number in an array using recursive function (similar to Binary Search)
+    //A method that find maximum element in an array using recursive function (similar to Binary Search)
     private static int getMax1(int n[], int start, int end) {
         if (start == end) return n[start];
         else {
